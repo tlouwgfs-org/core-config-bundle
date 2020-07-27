@@ -51,7 +51,7 @@ unclassified:
           scm:
             github:
               credentialsId: "cbdays-github-username-pat"
-              repoOwner: "REPLACE_GITHUB_ORG"
+              repoOwner: "tlouwgfs-org"
               repository: "pipeline-library"
   hibernationConfiguration:
     activities:
@@ -70,10 +70,10 @@ credentials:
               scope: GLOBAL
               id: cbdays-github-token-secret
               description: "GitHub PAT from JCasC - secret text"
-              secret: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              secret: "{AQAAABAAAAAw8LO9xTWtp6bumZvm1lhwQ2wL8sUx1D3qAk+OwYfK8ivLtLcZZoksR99qRQ9RXnXWcbWhSeeVvm7zZIvob0WPZQ==}"
           - usernamePassword:
               scope: GLOBAL
               id: cbdays-github-username-pat
               description: "GitHub PAT from JCasC - username/password"
-              username: "REPLACE_WITH_YOUR_GITHUB_USERNAME"
-              password: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              username: "tlouwgfs"
+              password: "{AQAAABAAAAAw8LO9xTWtp6bumZvm1lhwQ2wL8sUx1D3qAk+OwYfK8ivLtLcZZoksR99qRQ9RXnXWcbWhSeeVvm7zZIvob0WPZQ==}"
